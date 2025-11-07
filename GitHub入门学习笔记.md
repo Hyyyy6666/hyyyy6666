@@ -21,5 +21,3 @@
 2. 学习内容：
     ①学会建立GitHub仓库。
     ②学会用emoji和markdown简单格式写简单readme。
->>>>>>> f619ff5037e46a3f8518e45d750ec3857ae7d179
-    ②学会用emoji和某些常见排版编写一篇简单的readme文档。
