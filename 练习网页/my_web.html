@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_web</title>
+    <style>
+
+        html{
+            scroll-behavior:smooth;
+            scroll-padding=top:80px;
+        }
+
+        .intro-section,
+        .characters-section,
+        .massage-section{
+            scroll-margin-top:80px;
+            margin-bottom: 3rem;
+        }
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box
+        }
+
+        body{
+            line-height:1.6;
+            color:#333;
+            background:linear-gradient(135deg.#07f7ff 0%,#87CEEB 50%,#1E90FF 100%);
+            min: height 100vh;
+        }
+
+        .header{
+            background: rgba(225,215,0,0.95);
+           position:sticky;
+           top: 0;
+           border-bottom: 3px solid #8b4513;
+        }
+
+        .navbar{
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            padding:1rem 2rem;
+        }
+
+        .logo h1{
+            color: #8B4513;
+            font-size: 1.8rem;
+        }
+
+        .nav-link{
+            color: #8B4513;
+            font-weight: 600;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            position: relative;
+        }
+
+        .nav-link:hover{
+            background: #ff6b6b;
+            color: white;
+            box-shadow: 0 5px 15px rgba(225,107,107,0.3);
+        }
+
+        .nav-link.active{
+            background: #1e90ff;
+            color: white!important;
+            border:2px solid #1E90FF;
+        }
+
+        .hero-banner{
+            height: 400px;
+            display: flex;
+            color: white;
+        }
+
+        .hero-content h2{
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero-content p{
+            font-size: 1.5rem;
+        }
+
+        .main-contenter{
+            background-color: #FFD700;
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .content-wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        .main-content{
+            display: flex;
+            flex-direction:column;
+            gap:3rem;
+        }
+
+        .intro-section{
+            background: white;
+            border-size:2.2rem;
+            margin-bottom: 2rem;
+            text-align: 2rem;
+            border-bottom:3px solid #FFD700;
+            padding-bottom: 1rem;
+        }
+
+        .content-box{
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .contetn-box p{
+            margin-bottom: 1.5rem;
+            text-indent:2rem;
+        }
+
+        .highlight{
+            background:#FFF9C4;
+            padding: 1rem;
+            border-left:4px solid #FFD700;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .character-card{
+            background-color: white;
+            padding:1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            border: 2px solid #FED700;
+
+        }
+
+        .character-card:hover{
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(225,215,0,0.3);
+        }
+
+        .character-card h3{
+            color: #1E90FF;
+            margin-bottom: 0.5rem;
+        }
+
+        .sidebar{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .sidebar-weight{
+            background: white;
+            padding: 1.5rem;
+            border: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1)
+            border:2px solid #1E90FF;
+        }
+
+        .sidebar-widget h3{
+            color:#8B4513;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #FFD700;
+            padding-bottom: 0.5rem;
+        }
+
+        .photo-item,.event-item{
+            padding: 0.8rem;
+            margin-bottom: 0.5rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        img{
+            max-width:100%;
+            height:auto;
+            width: 1200px;
+        }
+
+
+        .photo-item,.event-item:hover{
+            background: #e3f2fd;
+        }
+
+    </style>
+</head>
+<body>
+<!--/导航栏制作-->
+<header class="header ">
+<nav class="nav">
+    <div class="nav-container">
+        <a href="#home" class="nav-link">首页</a>
+        <a href="#self-intro" class="nav-link">自我介绍</a>
+        <a href="#hobby" class="nav-link">我的爱好</a>
+        <a href="#Time" class="nav-link">精彩瞬间</a>
+        <a href="#message" class="nav-link">活动日历</a>
+    </div>
+</nav>
+</header>
+
+<!--主横幅-->
+<section id="home" class="hero-banner">
+    <div class="hero-content">
+        <h2>欢迎来到Hyyyy6666的世界!</h2>
+        <p>一起探索Hyyyy6666的奇妙世界</p>
+    </div>
+</section>
+
+<!--主要内容-两栏布局-->
+<main class="main-container">
+<div class="container-wrapper">
+    <div class="main-content">
+        <section id="self-intro" class="intro-section">
+            <h2 class="seciton-title">自我介绍</h2>
+            <div class="content-box">
+                <p>我是一名正在 **从零开始努力学习编程** 的新手小白！</p>
+                <p> - 🔭 ***当前状态***: 我正在积极学习基础知识，不断探索编程的广阔世界。</p>
+                <p> - 🌱***学习方向***: 目前正专注于 **Git & GitHub** 的使用，并学习 **Python/ C**等语言。</p>
+                <p> - 👯 ***期望合作***: 我希望能与和我一样的新手朋友们交流经验，互相鼓励，共同成长。</p>
+                <p> - 🤔 ***寻求帮助***: 我需要关于学习路径、资源推荐以及最佳实践的任何建议！</p>
+                <p>- 💬 ***可以聊的话题***: 关于学习编程的困惑、好用的工具、或者任何励志的故事。</p>
+                <p>- 📫 ***如何联系我***: 2772802559@qq.com</p>
+                <p> - ⚡ ***个人信念***: **千里之行，始于足下！**</p>
+            </div>
+        </section>   
+    </div>
+</div>
+
+<!--爱好介绍区块-->
+<section class="hobby-section">
+    <h2 id="hobby" class="seciton-title">🥰My-hobby</h2>
+    <div class="characters-grid">
+    <div class="characters-card">
+        <h3>Singer</h3>
+        <p>未来Super-singer养成中</p>
+    </div>
+    <div class="characters-card">
+        <h3>Badminton</h3>
+        <p>羽毛球小白进阶期</p>
+    </div>
+
+    <div class="characters-card">
+        <h3>Back-end enginee</h3>
+        <p>新人engineer努力学习中</p>
+    </div>
+
+    <div class="characters-card">
+        <h3>Volleyball</h3>
+        <p>Volleyball爱好者</p>
+    </div>
+</section>
+</div>
+
+<!--右侧边栏-->
+<aside class="sidebar">
+    <div  id="Time" class="sidebar-widget">
+        <h3>🤘精彩瞬间</h3>
+        <div class="photo-list">
+            <div class="photo-item">青协麦田项目组团建</div>
+            <img src="./img/麦田团建草地.jpg">
+            <img src="./img/麦田团建.jpg">
+            <div class="photo-item">青协麦田摆台活动</div>
+            <img src="./img/麦田摆台集体.jpg">
+            <img src="./img/麦田摆台.jpg">
+            <div class="photo-item">排球队团建</div>
+            <img src="./img/微信图片_20251116010308_13_23.jpg">
+            <img src="./img/排球队团建.jpg">
+        </div>
+    </div>
+
+    <div id="message" class="sidebar-widge">
+        <h3>📆活动日历</h3>
+        <div class="event-list">
+            <div class="event-item">My-birth:10.11</div>
+            <div class="event-item">My holiday begin:1.24</div>
+        </div>
+    </div>
+    </aside>
+    </main>
+</body>
+</html>
