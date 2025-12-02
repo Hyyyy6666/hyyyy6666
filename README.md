@@ -1,0 +1,20 @@
+# 学习笔记
+Geek考核期间学习笔记
+## 目录
+### 阶段一学习成果
+1. [Github入门学习笔记](GitHub入门学习笔记.md)
+2. [markdown学习笔记](MarkDown学习笔记.md)
+3. [阶段一学习心得](Geek小组第一阶段考核.md)
+### 阶段二学习成果
+1. [hello.md](Hello.md)
+2. [Git学习笔记](Git学习笔记.md)
+### 阶段三学习成果
+1. [HTMl学习笔记](/HTML学习笔记.md)
+2. [HTML练习](HTML属性（练习）.html)
+3. [CSS学习笔记](/CSS学习笔记.md)
+4. [JS学习笔记](JavaScript学习笔记.md)
+5. [简单网页练习](./练习网页/my_web.html)
+6. [网页编后感](页面编后感.md)
+### 阶段四学习成果
+1. [网页复刻](/Geek招新网站复刻/（html）Geek网站复刻.html)
+2. [学习心得](./Geek招新网站复刻/复刻心得.md)
